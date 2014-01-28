@@ -1,0 +1,33 @@
+;; Object test_py/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "test_py/"
+  :tables (list 
+   (semanticdb-table "test.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("util" include nil nil [58 69])
+            ("hello" function nil nil [71 109])
+            ("if" code nil nil [110 167]))          
+    :file "test.py"
+    :pointmax 257
+    :fsize 256
+    :lastmodtime '(21221 211)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "util.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("fun1" function nil nil [43 73])
+            ("fun2" function nil nil [74 104])
+            ("print" code nil nil [105 130]))          
+    :file "util.py"
+    :pointmax 132
+    :fsize 131
+    :lastmodtime '(21221 58762)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!local!test_py!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

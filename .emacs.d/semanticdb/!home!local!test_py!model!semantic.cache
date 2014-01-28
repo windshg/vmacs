@@ -1,0 +1,29 @@
+;; Object model/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "model/"
+  :tables (list 
+   (semanticdb-table "boat.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("Boat" type
+               (:members 
+                  ( ("__init__" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [72 76])
+                        ("name" variable nil (reparse-symbol function_parameters) [78 82]))                      ) (reparse-symbol indented_block_body) [59 111])
+                    ("moveOn" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [131 135]))                      ) (reparse-symbol indented_block_body) [120 176])
+                    ("moveBack" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [194 198]))                      ) (reparse-symbol indented_block_body) [181 241]))                  
+                :type "class")
+                nil [43 241]))          
+    :file "boat.py"
+    :pointmax 243
+    :fsize 242
+    :lastmodtime '(21220 29754)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!local!test_py!model!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )
