@@ -9,7 +9,7 @@
 (define-key ctl-x-map "W" 'wipe)
 
 ;; hooks
-(add-hook 'kill-emacs-hook 'save-current-configuration) ; save configuration before quit emacs
-(add-hook 'emacs-startup-hook 'resume) ; resume configuration after startup
+;(add-hook 'kill-emacs-hook 'save-current-configuration) ; save configuration before quit emacs
+;(add-hook 'emacs-startup-hook 'resume) ; resume configuration after startup
 
 (provide 'revive-config)

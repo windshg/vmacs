@@ -32,10 +32,6 @@
 ;; Auto-refresh dired on file change
 (add-hook 'dired-mode-hook 'auto-revert-mode)
 
-;; Set Keyboard Shortcut
-(global-set-key (kbd "C-x /") 'comment-region)               ; comment-region
-;(global-set-key (kbd "C-x <tab>") 'indent-region)            ; indent-region
-
 (global-set-key (kbd "C-c l") 'goto-line)                  ; goto-line
 (global-set-key (kbd "C-c o") 'previous-multiframe-window) ; previous-multiframe-window
 (global-set-key (kbd "C-c s") 'shell-command)              ; shell-command
