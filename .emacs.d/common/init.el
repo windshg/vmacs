@@ -13,6 +13,7 @@
 (fset 'yes-or-no-p 'y-or-n-p) ; "yes or no" convert to "y or n"
 (require 'saveplace) ; save last place of the cursor
 (setq-default save-place t)
+(setq-default c-basic-offset 4) ;c缩进
 (setq scroll-margin 10 scroll-conservatively 10000) ; 防止页面滚动时跳动,scroll-margin 3可以在靠近屏幕边沿3行时就开始滚动,可以很好的看到上下文
 (scroll-bar-mode -1) ;; hide the scroll view
 (tool-bar-mode -1) ; hide toolbar
