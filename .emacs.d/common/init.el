@@ -43,6 +43,7 @@
 ;; load path
 ;; load utility modes on startup
 (winner-mode) ; winner mode
+(require 'linum)
 (global-linum-mode) ; linum modew
 
 (provide 'init)
